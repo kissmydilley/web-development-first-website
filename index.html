@@ -1191,7 +1191,6 @@ Next time you reach for the pump handle, remember that fuel belongs in engines a
     // 10. CONTROLS, EDIT SCRIPT MODAL & KEYBOARD SHORTCUTS
     // =========================================================================
     dom.playBtn.addEventListener('click', () => setPlaying(!state.isPlaying));
-
     dom.micBtn.addEventListener('click', () => {
       if (state.isMicOn) {
         stopVoiceRecognition();
@@ -1202,7 +1201,6 @@ Next time you reach for the pump handle, remember that fuel belongs in engines a
         }
       }
     });
-
     dom.resetBtn.addEventListener('click', resetAll);
     dom.pipBtn.addEventListener('click', toggleAlwaysOnTopPiP);
 
